@@ -91,7 +91,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
           </div>
           <div>
             <p className="pb-3 pt-6 text-center text-sm text-richblack-25">
-              30-Day Money-Back Guarantee
+              30-Day Money-Back Gurantee
             </p>
           </div>
 
@@ -112,7 +112,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
           </div>
           <div className="text-center">
             <button
-              className="mx-auto flex items-center gap-2 py-6 text-yellow-100 "
+              className="mx-auto flex items-center gap-2 py-6 text-caribbeangreen-100 "
               onClick={handleShare}
             >
               <FaShareSquare size={15} /> Share

@@ -188,7 +188,7 @@ function CourseDetails() {
                 </p>
                 <p className="flex items-center gap-2">
                   {" "}
-                  <HiOutlineGlobeAlt /> English
+                  <HiOutlineGlobeAlt /> Hinglish
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ function CourseDetails() {
                 </div>
                 <div>
                   <button
-                    className="text-yellow-25"
+                    className="text-caribbeangreen-50"
                     onClick={() => setIsActive([])}
                   >
                     Collapse all sections

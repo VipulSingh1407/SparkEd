@@ -16,7 +16,7 @@ const CourseCard = ({
             <div
               className={`w-[360px] lg:w-[30%] ${
                 currentCard === cardData.heading
-                  ? "bg-white shadow-[12px_12px_0_0] shadow-yellow-50"
+                  ? "bg-white shadow-[12px_12px_0_0] shadow-caribbeangreen-25"
                   : "bg-richblack-800"
               }  text-richblack-25 h-[300px] box-border cursor-pointer hover:scale-[1.1] transition-all duration-200`}
               onClick={() => setCurrentCard(cardData?.heading)}
@@ -47,7 +47,7 @@ const CourseCard = ({
                 {/* Flow Chart */}
                 <div className="flex items-center gap-2 text-[16px]">
                   <ImTree />
-                  <p>{cardData?.lessionNumber} Lession</p>
+                  <p>{cardData?.lessionNumber} Lesson</p>
                 </div>
               </div>
             </div>

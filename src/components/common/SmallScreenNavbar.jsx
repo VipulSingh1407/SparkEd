@@ -29,10 +29,7 @@ export default function SmallScreenNavbar({handleCrossButton, isClose}) {
   const [loading, setLoading] = useState(false)
   const [confirmationModal, setConfirmationModal] = useState(null)
 
-  // const windowWidth = useRef(window.innerWidth);
-  // console.log("--------window-width----", windowWidth);
-  // const [smallScreen, setSmallScreen] = useState(false);
-  // const [isClose, setIsClose] = useState(false);
+
 
 
   useEffect(() => {

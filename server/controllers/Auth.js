@@ -77,107 +77,6 @@ exports.sendotp = async (req, res) => {
  
 }
 
-
-//signup
-// exports.signup = async (req, res) => {
-//     try{
-//         //fetching... data from req,body
-//         const {
-//             firstName,
-//             lastName,
-//             email,
-//             password,
-//             confirmPassword,
-//             accountType,
-//             contactNumber,
-//             otp,
-//         } = req.body;
-//         console.log("otp => ", otp);
-
-//         //validaing... data
-//         if(!firstName || !lastName || !email || !password || !confirmPassword || !otp){
-//             return res.status(403).json({
-//                 success:false,
-//                 message:"ALL FIELDS ARE REQUIRED",
-//             });
-//         }
-
-//         //matching... 2-PASSWORDS
-//         if(password !== confirmPassword){
-//             return res.status(400).json({
-//                 success:false,
-//                 message:"password and confirmPassword does not matched",
-//             });
-//         }
-
-//         //checking.. user existence if present already
-//         const existingUser = await User.findOne({email});
-//             //if user is already present
-//             if(existingUser){
-//                 return res.status(400).json({
-//                     sucess:false,
-//                     message:"User Already Exists",
-//                 });
-//             } 
-
-//         //finding... most recent otp 
-//         const recentOTP = await OTP.find({email}).sort({createdAt:-1}).limit(1);
-//         console.log("recentOTP => ", recentOTP);
-
-//         //validating... OTP  
-//         if(recentOTP.length === 0){
-//             //otp not founded
-//             return res.status(400).json({
-//                 sucess:false,
-//                 message:"otp not founded",
-//             });
-//         } else if(otp !== recentOTP[0].otp){
-//             //WRONG OTP
-//             return res.status(400).json({
-//                 sucess:false,
-//                 message:"otp doesn't matched",
-//             });
-//         }
-
-//         //hasing... password
-//         const hashedPassword = await bcrypt.hash(password, 10);
-
-//         //creating... entry
-//         //but first creating additional details i.e. PROFILE for userSchema
-//         const profileDetails = await Profile.create({
-//             gender:null,
-//             dateOfBirth:null,
-//             about:null,
-//             contactNumber:null,
-//         })
-//         const user = await User.create({
-//             firstName,
-//             lastName,
-//             email,
-//             contactNumber,
-//             password:hashedPassword,
-//             accountType,
-//             additionalDetails:profileDetails._id,
-//             image: `https://api.dicebear.com/5.x/initials/svg?seed=${firstName} ${lastName}`,
-//         })
-
-//         //sending...final response
-//         return res.status(200).json({
-//             success:true,
-//             message:"user registered SUCCESSFULLY !!",
-//             user,
-//         });
-
-
-//     } catch(error){
-//         console.log(error);
-//         return res.status(500).json({
-//             success:false,
-//             message:"user cannot be REGISTERED, try again ",
-//         }) 
-//     }
-
-// }
 exports.signup = async (req, res) => {
 	try {
 		// Destructure fields from the request body
@@ -378,14 +277,7 @@ exports.changePassword = async (req, res) => {
                 });
         }
  
-        // Match new password and confirm new password
-        // if (newPassword !== confirmNewPassword) {
-		// 	// If new password and confirm new password do not match, return a 400 (Bad Request) error
-		// 	return res.status(400).json({
-		// 		success: false,
-		// 		message: "The password and confirm password does not match",
-		// 	});
-		// }
+
 
         //update pwd in DB
         const encryptedPassword = await bcrypt.hash(newPassword, 10);
