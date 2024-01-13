@@ -11,7 +11,7 @@ const Profile = require("../models/Profile");
 //otp verification by SENDING OTP
 exports.sendotp = async (req, res) => {
     try{
-        //1st STEP => fetching... eamil from req.body
+        
         const {email} = req.body;
 
         //check if user already present..
