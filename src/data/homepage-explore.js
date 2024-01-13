@@ -50,7 +50,7 @@ export const HomePageExplore = [
         courses : [
             {
                 heading : "Java",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+                description : "This course covers the basic concepts of Java including creating and developing back-end.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
@@ -73,7 +73,7 @@ export const HomePageExplore = [
         courses : [
             {
                 heading : "Flask",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+                description : "This course covers the basic concepts of flask including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },

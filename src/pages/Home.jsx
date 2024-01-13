@@ -34,12 +34,12 @@ const Home = () => {
             </Link>
 
             <div className='text-center text-4xl font-semibold mt-7'>
-                Empower Your Future With
-                <HighlightText text={"Coding Skills"} />
+                SparkEd: Your Gateway to Skillful
+                <HighlightText text={"FUTURE"} />
             </div>
 
             <div className=' mt-4 w-[90%] text-center text-lg font-bold text-richblack-300'>
-                With our online coding courses, you can learn at your own pace, from anywhere in the world, and get access to a wealth of resources, including hands-on projects, quizzes, and personalized feedback from instructors. 
+            Embark on a Transformative Coding Journey with SparkEd: Where Affordability Meets Ambition. Break Free from Financial Barriers – Ignite Your Passion, Unleash Your Potential, and Secure a Skillful Future through Budget-Friendly Courses Tailored Just for You. 
             </div>
 
             <div className='flex flex-col relative items-center gap-7  mt-32 mb-10'>
@@ -53,7 +53,7 @@ const Home = () => {
                     </CTAButton>
                 </div>
 
-                <div className='mx-3 my-12 shadow-blue-200 -z-10s relative vid1'>
+                <div className='mx-3 my-12 shadow-caribbeangreen-100 -z-10s relative vid1'>
                     <div > 
                         <img src = {elipseImage2} width={"100%"}
                         className='absolute bottom-[1%] -z-10 ' 
@@ -103,13 +103,13 @@ const Home = () => {
                     // imgPos = {"-top-[40%] right-[8%]"}
                     heading={
                         <div className='text-4xl font-semibold'>
-                            Unlock Your
-                            <HighlightText text={"coding potential"}/>
-                            {" "} with our online courses
+                            Skill Up 
+                            Today
+                            {" "} with our <HighlightText text={"Budget courses"}/>
                         </div>
                     }
                     subheading = {
-                        "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+                        "Empower your journey to success! Explore our Budget-friendly courses and skill up today with expert-led learning experiences tailored to enhance your skills and advance your career"
                     }
                     ctabtn1={
                         {
@@ -127,7 +127,7 @@ const Home = () => {
                     }
 
                     // codeblock={`<<!DOCTYPE html>\n<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>\nh1><ahref="/">Header</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/">Two</a><ahref="three/">Three</a>\n/nav>`}
-                    codeblock={[`<!DOCTYPE html>`,`<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>`,`h1><ahref="/">Header</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/">Two</a><ahref="three/">Three</a>\n/nav>`]}
+                    codeblock={[`<!DOCTYPE html>`,`<html>\nhead><title>Welcome to SparkEd</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>`,`h1><ahref="/">Courses that cost Rs.1/day</a>\n/h1>\nnav><ahref="one/">Get</a><ahref="two/">Ready</a><ahref="three/">to Learn</a>\n/nav>`]}
                     codeColor={"text-yellow-25"}
                     // backgroudGradient={elipseImage3}
                     backgroudGradient={<div className="codeblock1 absolute"></div>}
@@ -143,14 +143,14 @@ const Home = () => {
                     // imgPos = {"-top-[40%] right-[66%]"}
                     heading={
                         <div className='text-4xl font-semibold'>
-                            Start 
-                            <HighlightText text={`coding`}/>
-                            <br />
-                            <HighlightText text={` in seconds`}/>
+                            Having
+                            <HighlightText text={`Dream`}/>
+                            <br />of being
+                            <HighlightText text={` a Coder?`}/>
                         </div>
                     }
                     subheading = {
-                        "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+                        "Don't worry, we've got your back! Dive into the world of coding with courses that cost less than a cup of tea per day – affordable, accessible, and your key to unlocking a bright coding future."
                     }
                     ctabtn1={
                         {
@@ -167,7 +167,7 @@ const Home = () => {
                         }
                     }
 
-                    codeblock={[`<!DOCTYPE html>`,`<html>\nhead><title>Example</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>`,`h1><ahref="/">Header</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/">Two</a><ahref="three/">Three</a>\n/nav>`]}
+                    codeblock={[`<!DOCTYPE html>`,`<html>\nhead><title>Affordable Courses</title><linkrel="stylesheet"href="styles.css">\n/head>\nbody>`,`h1><ahref="/">Non-stop Learning</a>\n/h1>\nnav><ahref="one/">One</a><ahref="two/">Two</a><ahref="three/">Three</a>\n/nav>`]}
                     codeColor={"text-yellow-25"}
                     // backgroudGradient={elipseImage2}
                     backgroudGradient={<div className="codeblock2 absolute"></div>}
@@ -207,7 +207,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col items-start gap-10 lg:w-[40%]">
                 <div className="text-[16px]">
-                    The modern StudyNotion is the dictates its own terms. Today, to
+                    The modern SparkEd is the dictates its own terms. Today, to
                     be a competitive specialist requires more than professional
                     skills.
                 </div>

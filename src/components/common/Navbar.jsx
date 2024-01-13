@@ -4,7 +4,7 @@ import { BsChevronDown } from "react-icons/bs"
 import { useSelector } from "react-redux"
 import { Link, matchPath, useLocation } from "react-router-dom"
 
-import logo from "../../assets/Logo/Logo-Full-Light.png"
+import logo from "../../assets/Logo/Logo.png"
 import { NavbarLinks } from "../../data/navbar-links"
 import { apiConnector } from "../../services/apiconnector"
 import { categories } from "../../services/apis"
@@ -88,7 +88,7 @@ function Navbar() {
                   <div
                     className={`group relative flex cursor-pointer items-center gap-1 ${
                       matchRoute("/catalog/:catalogName")
-                        ? "text-yellow-25"
+                        ? "text-caribbeangreen-25"
                         : "text-richblack-25"
                     }`}
                   >
@@ -132,7 +132,7 @@ function Navbar() {
                   <p
                     className={`${
                       matchRoute(link?.path)
-                        ? "text-yellow-25"
+                        ? "text-caribbeangreen-50"
                         : "text-richblack-25"
                     }`}
                   >
