@@ -51,12 +51,7 @@ export default function SmallScreenNavbar({handleCrossButton, isClose}) {
     return matchPath({ path: route }, location.pathname)
   }
 
-  // const handleCrossButton = () => { 
-  //   isClose = isClose ? setIsClose(false) : setIsClose(true);  
-  //   // smallScreen = smallScreen ? setSmallScreen(false) : setSmallScreen(true);
-  // }
-  // const Icon = Icons[iconName]
-
+  
   return (
     <div
     className={`moving-div-left
