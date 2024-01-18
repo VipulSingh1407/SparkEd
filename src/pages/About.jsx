@@ -21,7 +21,7 @@ const About = () => {
             Driving Innovation in Online Education for a
             <HighlightText text={"Brighter Future"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-              Studynotion is at the forefront of driving innovation in online
+              SparkEd is at the forefront of driving innovation in online
               education. We're passionate about creating a brighter future by
               offering cutting-edge courses, leveraging emerging technologies,
               and nurturing a vibrant learning community.
@@ -51,11 +51,10 @@ const About = () => {
                 Our Founding Story
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+              In the vibrant realm of education and innovation, the founders of Sparked—Vipul Singh,
+               Divyam Raj, Mridul Kaushik, and Anup Singh—united with a shared vision to redefine learning.
+                Fueled by a passion for breaking educational barriers, the quartet embarked on a journey to
+                 create an e-learning platform that transcends traditional boundaries.
               </p>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
                 As experienced educators ourselves, we witnessed firsthand the
