@@ -4,7 +4,7 @@ const otpTemplate = (otp) => {
 	
 	<head>
 		<meta charset="UTF-8">
-		<title>OTP Verification Email</title>
+		<title>OTP Verification Email-SparkEd</title>
 		<style>
 			body {
 				background-color: #ffffff;
