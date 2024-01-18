@@ -94,7 +94,7 @@ exports.verifyPayment = async(req, res) => {
 }
 
 
-exports.enrollStudents = async(courses, userId, res) => {
+const enrollStudents = async(courses, userId, res) => {
 
     if(!courses || !userId) {
         return res.status(400).json({success:false,message:"Please Provide data for Courses or UserId"});
@@ -128,7 +128,7 @@ exports.enrollStudents = async(courses, userId, res) => {
             
         ///bachhe ko mail send kardo
         const emailResponse = await mailSender(
-            enrolledStudent.email,
+            enrollStudents.email,
             `Successfully Enrolled into ${enrolledCourse.courseName}`,
             courseEnrollmentEmail(enrolledCourse.courseName, `${enrolledStudent.firstName}`)
         )    
