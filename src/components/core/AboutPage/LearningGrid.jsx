@@ -16,31 +16,31 @@ const LearningGridArray = [
     order: 1,
     heading: "Curriculum Based on Industry Needs",
     description:
-      "Save time and money! The Belajar curriculum is made to be easier to understand and in line with industry needs.",
+      "   Tailored to industry demands, our curriculum ensures students acquire relevant skills, preparing them for real-world challenges in the ever-evolving landscape of computer science.",
   },
   {
     order: 2,
     heading: "Our Learning Methods",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "Dynamic and engaging, our learning methods blend theory with hands-on practice, promoting active comprehension and mastery, ensuring students retain and apply knowledge effectively",
   },
   {
     order: 3,
     heading: "Certification",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "   Earn globally recognized certificates validating your proficiency enhancing your credibility in the competitive field of computer science.",
   },
   {
     order: 4,
     heading: `Rating "Auto-grading"`,
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "Experience seamless evaluation with our auto-grading system.Receive instant, constructive feedback on your coding exercises, accelerating your learning journey with efficient and effective assessments.",
   },
   {
     order: 5,
     heading: "Ready to Work",
     description:
-      "Studynotion partners with more than 275+ leading universities and companies to bring",
+      "   Bridge the gap between learning and application. Our platform prepares you for the professional world with projects and challenges mirroring real-world scenarios, making you job-ready from day one.",
   },
 ];
 
