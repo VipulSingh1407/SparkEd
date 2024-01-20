@@ -91,6 +91,6 @@ Join forums or discussion groups within SparkEd to connect with fellow learners 
 
 ## Access the SparkEd
 
-Simply [click Here](https://sparkedvamd.vercel.app/) to open the SparkEd Web App.
+Simply [click Here](https://sparkedvamd1.vercel.app/) to open the SparkEd Web App.
 
 Happy learning with SparkEd!
