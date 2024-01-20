@@ -1,9 +1,9 @@
 import React from "react"
 
-import FoundingStory from "../assets/Images/FoundingStory.png"
-import BannerImage1 from "../assets/Images/aboutus1.webp"
+import FoundingStory from "../assets/Images/FoundingStory.jpg"
+import BannerImage1 from "../assets/Images/aboutus1.png"
 import BannerImage2 from "../assets/Images/aboutus2.webp"
-import BannerImage3 from "../assets/Images/aboutus3.webp"
+import BannerImage3 from "../assets/Images/aboutus3.png"
 import Footer from "../components/common/Footer"
 import ReviewSlider from "../components/common/ReviewSlider"
 import ContactFormSection from "../components/core/AboutPage/ContactFormSection"
@@ -11,6 +11,8 @@ import LearningGrid from "../components/core/AboutPage/LearningGrid"
 import Quote from "../components/core/AboutPage/Quote"
 import StatsComponenet from "../components/core/AboutPage/Stats"
 import HighlightText from "../components/core/HomePage/HighlightText"
+import HighlightText1 from "../components/core/HomePage/HighlightText1"
+
 
 const About = () => {
   return (
@@ -18,8 +20,7 @@ const About = () => {
       <section className="bg-richblack-700">
         <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
-            Driving Innovation in Online Education for a
-            <HighlightText text={"Brighter Future"} />
+          <HighlightText text={"Code your dreams"} />, Shape the Future: Join the Adventure of Learning!
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
               SparkEd is at the forefront of driving innovation in online
               education. We're passionate about creating a brighter future by
@@ -51,8 +52,9 @@ const About = () => {
                 Our Founding Story
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-              In the vibrant realm of education and innovation, the founders of Sparked—Vipul Singh,
-               Divyam Raj, Mridul Kaushik, and Anup Singh—united with a shared vision to redefine learning.
+              In the vibrant realm of education and innovation, the founders of SparkEd—<HighlightText1 text={"Vipul Singh"}/>,<HighlightText1 text={"Divyam Raj"}/>,
+              <HighlightText1 text={"Mridul Kaushik"}/> and <HighlightText1 text={"Anup Singh"}/>
+                —united with a shared vision to redefine learning.
                 Fueled by a passion for breaking educational barriers, the quartet embarked on a journey to
                  create an e-learning platform that transcends traditional boundaries.
               </p>
@@ -81,12 +83,12 @@ const About = () => {
                 Our Vision
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                With this vision in mind, we set out on a journey to create an
-                e-learning platform that would revolutionize the way people
-                learn. Our team of dedicated experts worked tirelessly to
-                develop a robust and intuitive platform that combines
-                cutting-edge technology with engaging content, fostering a
-                dynamic and interactive learning experience.
+              At our core, we envision a future where every aspiring student can unravel the vast realm of computer science without financial barriers
+               hindering their journey. Our mission is to provide a budget-friendly haven for learners. We aspire to empower students globally,
+                 ensuring that financial constraints never stand as a roadblock to their dreams. 
+               
+
+
               </p>
             </div>
             <div className="my-24 flex lg:w-[40%] flex-col gap-10">

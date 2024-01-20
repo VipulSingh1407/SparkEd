@@ -55,11 +55,11 @@ const Home = () => {
 
                 <div className='mx-3 my-12 shadow-caribbeangreen-100 -z-10s relative vid1'>
                     <div > 
-                        <img src = {elipseImage2} width={"100%"}
+                        <img src = {elipseImage2} width={"102%"}
                         className='absolute bottom-[1%] -z-10 ' 
                         alt='elipse ' />
                         <img src = {elipseImage1} width={"100%"}
-                        className='absolute right-[12%] top-[2%] -z-10'
+                        className='absolute right-[12%] top-[3%] -z-10'
                         alt='elipse ' />
                         
                     </div>
@@ -207,9 +207,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col items-start gap-10 lg:w-[40%]">
                 <div className="text-[16px]">
-                    The modern SparkEd is the dictates its own terms. Today, to
-                    be a competitive specialist requires more than professional
-                    skills.
+                SparkEd is more than just a platform; it's a catalyst for educational empowerment.
                 </div>
                 <CTAButton active={true} linkto={"/signup"}>
                     <div className="">Learn More</div>

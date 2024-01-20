@@ -15,7 +15,7 @@ const contactDetails = [
     heading: "Visit us",
     description: "Come and say hello at our office .",
     details:
-      "Knowledge Pakr-2,Greater Noida,Uttar Pradesh-201306",
+      "Knowledge Park-2,Greater Noida,Uttar Pradesh-201306",
   },
   {
     icon: "IoCall",
