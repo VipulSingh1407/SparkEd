@@ -44,11 +44,11 @@ const Home = () => {
 
             <div className='flex flex-col relative items-center gap-7  mt-32 mb-10'>
                 <div className='flex flex-row gap-7 mt-10 absolute lg:z-50 bottom-[100%]'>
-                    <CTAButton active={true} linkto={"/signup"}> 
+                    <CTAButton active={true} linkto={"/about"}> 
                         Learn More
                     </CTAButton>
 
-                    <CTAButton active={false} linkto={"/login"}> 
+                    <CTAButton active={false} linkto={"/signup"}> 
                         Book a Demo
                     </CTAButton>
                 </div>
@@ -121,7 +121,7 @@ const Home = () => {
                     ctabtn2={
                         {
                             btnText: "Learn More",
-                            linkto: "/login",
+                            linkto: "/about",
                             active: false,
                         }
                     }
@@ -155,14 +155,14 @@ const Home = () => {
                     ctabtn1={
                         {
                             btnText: "Continue Lesson",
-                            linkto: "/signup",
+                            linkto: "/catalog/android",
                             active: true,
                         }
                     }
                     ctabtn2={
                         {
                             btnText: "learn more",
-                            linkto: "/login",
+                            linkto: "/about",
                             active: false,
                         }
                     }
@@ -185,7 +185,7 @@ const Home = () => {
             <div className="mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8">
                 <div className="lg:h-[150px]"></div>
                 <div className="flex flex-row gap-7 text-white lg:mt-8">
-                <CTAButton active={true} linkto={"/signup"}>
+                <CTAButton active={true} linkto={"/catalog/android"}>
                     <div className="flex items-center gap-2">
                     Explore Full Catalog
                     <FaArrowRight />
@@ -209,7 +209,7 @@ const Home = () => {
                 <div className="text-[16px]">
                 SparkEd is more than just a platform; it's a catalyst for educational empowerment.
                 </div>
-                <CTAButton active={true} linkto={"/signup"}>
+                <CTAButton active={true} linkto={"/about"}>
                     <div className="">Learn More</div>
                 </CTAButton>
                 </div>
