@@ -169,22 +169,3 @@ function App() {
 export default App;
 
 
-// .spinner {
-//   width: 56px;
-//   height: 56px;
-//   border-radius: 50%;
-//   align-self: center;
-//   margin-top: 2rem;
-//   background: conic-gradient(#0000 10%,#ffffff);
-//   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
-//   animation: spinner-zp9dbg 1s infinite linear;
-// }
-
-// @keyframes spinner-zp9dbg {
-//   to {
-//      transform: rotate(1turn);
-//   }
-// }
-// .ctaButton{
-//    box-shadow: -2px -2px 0px 0px rgba(255, 255, 255, 0.18) inset;
-// }
