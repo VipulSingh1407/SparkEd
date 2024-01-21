@@ -233,7 +233,7 @@ export default function SmallScreenNavbar({handleCrossButton, isClose}) {
         <ul className="flex flex-col gap-y-3 text-richblack-25">
           {NavbarLinks.map((link, index) => (
             <li key={index}>
-              {link.title === "Catalog" ? (
+              {link.title === "Courses" ? (
                 <>
                   <div
                     className={`group relative flex cursor-pointer items-center gap-1 ${
