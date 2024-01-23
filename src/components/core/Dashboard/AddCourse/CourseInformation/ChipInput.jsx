@@ -1,4 +1,84 @@
+// import React, { useEffect, useState } from 'react'
 
+// const ChipInput = ({name, label, register,placeholder, errors, setValue, getValues}) => {
+//     const [tag, setTag] = useState("");
+//     const [tagList, setTagList] = useState([]);
+
+//     useEffect( () => {
+//         register(name, {
+//             required:true,
+//         })
+//     }, [])
+
+//     useEffect(()=> {
+//         setValue(name, tagList);
+//     },[tagList])
+
+//     const handleAddRequirement = () => {
+//         if(tag) {
+//             setTagList([...tagList, tag]);
+//             //setRequirement("");
+//         }
+//     }
+
+//     const handleRemoveRequirement = (index) => {
+//         const updatedTagList = [...tagList];
+//         updatedTagList.splice(index, 1);
+//         setTagList(updatedTagList);
+
+//         // why not like this
+//         // tagList.splice(idx, 1);
+//         // setTagList(tagList)
+//     }
+
+//   return (
+//     <div>
+//         <label htmlFor={name}>{label}<sup>*</sup></label>
+//         {
+//             tagList.length > 0 && (
+//                 <div>
+//                     {
+//                         tagList.map((tag, index) => (
+//                             <div key={index} className='flex gap-3'>
+//                                 <p>{tag}</p>
+//                                 <button onClick={() => handleRemoveRequirement(index)}>
+//                                     X
+//                                 </button>
+//                             </div>
+
+//                         ))
+//                     }
+//                 </div>
+//             )
+//         }
+
+//         <div>
+//             <input
+//                 type='text'
+//                 id={name}
+//                 // value={tag}
+//                 placeholder={placeholder}
+//                 onChange={(e) => setTag(e.target.value)}
+//                 onKeyDown={(e) => {
+//                     if(e.key === "Enter" || e.key === ","){
+//                         e.preventDefault();
+//                         {handleAddRequirement}
+//                     }
+//                 }}
+//                 className='w-full'
+//             />
+//         </div>
+//         {errors[name] && (
+//         <span className="ml-2 text-xs tracking-wide text-pink-200">
+//           {label} is required
+//         </span>
+//       )}
+
+//     </div>
+//   )
+// }
+
+// export default ChipInput
 
 
 // Importing React hook for managing component state
