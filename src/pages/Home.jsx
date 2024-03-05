@@ -91,6 +91,8 @@ const Home = () => {
                             btnText: "Try it Yourself",
                             linkto: "http://localhost:3000",
                             active: true,
+                            target: "_blank".
+
                         }
                     }
                     ctabtn2={
