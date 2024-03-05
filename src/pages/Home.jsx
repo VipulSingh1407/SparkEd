@@ -70,10 +70,7 @@ const Home = () => {
                 </div>
             </div>
 
-<<<<<<< Updated upstream
-         
-=======
->>>>>>> Stashed changes
+
 
             {/* CODE-SECTION-1 */}
             <div>
