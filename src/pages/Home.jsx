@@ -79,12 +79,12 @@ const Home = () => {
                     // imgPos = {"-top-[40%] right-[8%]"}
                     heading={
                         <div className='text-4xl font-semibold'>
-                           Code, Collaborate, Create with 
+                           Code, Collaborate, Create  
                             {" "} with our <HighlightText text={"CoDeveloper"}/>
                         </div>
                     }
                     subheading = {
-                        "ndia's first Real-time Collaborative Coding technology, offering a virtual room that allows you to code and grow together, breaking down geographical barriers"
+                        "India's first Real-time Collaborative Coding technology, offering a virtual room that allows you to code and grow together, breaking down geographical barriers"
                     }
                     ctabtn1={
                         {
