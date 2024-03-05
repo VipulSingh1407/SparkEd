@@ -89,7 +89,7 @@ const Home = () => {
                     ctabtn1={
                         {
                             btnText: "Try it Yourself",
-                            linkto: "https://localhost:3000/",
+                            linkto: "http://localhost:3000",
                             active: true,
                         }
                     }
