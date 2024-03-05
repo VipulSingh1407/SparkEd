@@ -87,13 +87,13 @@ const Home = () => {
                         "India's first Real-time Collaborative Coding technology, offering a virtual room that allows you to code and grow together, breaking down geographical barriers"
                     }
                     ctabtn1={
-                        {
+                  {
                             btnText: "Try it Yourself",
                             linkto: "http://localhost:3000",
                             active: true,
-                            target: "_blank",
-
-                        }
+                            
+                  }
+                        
                     }
                     ctabtn2={
                         {
