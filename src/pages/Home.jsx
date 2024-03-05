@@ -70,31 +70,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* <div className='flex flex-row gap-7 mt-10'>
-                <CTAButton active={true} linkto={"/signup"}> 
-                    Learn More
-                </CTAButton>
-
-                <CTAButton active={false} linkto={"/login"}> 
-                    Book a Demo
-                </CTAButton>
-            </div>
-
-            <div className='mx-3 my-12 shadow-blue-200 relative vid1'>
-                <div > 
-                    <img src = {elipseImage2} width={"100%"}
-                    className='absolute bottom-[1%] -z-10 ' 
-                     alt='elipse ' />
-                     <img src = {elipseImage1} width={"100%"}
-                    className='absolute right-[12%] top-[2%] -z-10'
-                     alt='elipse ' />
-                    
-                </div>
-                <video muted loop autoPlay >
-                    <source  src={Banner} type="video/mp4" />
-                </video> 
-                
-            </div> */}
+         
 
             {/* CODE-SECTION-1 */}
             <div>
@@ -103,18 +79,17 @@ const Home = () => {
                     // imgPos = {"-top-[40%] right-[8%]"}
                     heading={
                         <div className='text-4xl font-semibold'>
-                            Skill Up 
-                            Today
-                            {" "} with our <HighlightText text={"Budget courses"}/>
+                           Code, Collaborate, Create with 
+                            {" "} with our <HighlightText text={"CoDeveloper"}/>
                         </div>
                     }
                     subheading = {
-                        "Empower your journey to success! Explore our Budget-friendly courses and skill up today with expert-led learning experiences tailored to enhance your skills and advance your career"
+                        "ndia's first Real-time Collaborative Coding technology, offering a virtual room that allows you to code and grow together, breaking down geographical barriers"
                     }
                     ctabtn1={
                         {
                             btnText: "Try it Yourself",
-                            linkto: "/signup",
+                            linkto: "https://sparkedcoder.vercel.app",
                             active: true,
                         }
                     }
